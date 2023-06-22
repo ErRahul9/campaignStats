@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "campaignstats"
+version = "0.1.0"
+description = ""
+authors = ["Rahul"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psycopg2 = "^2.9.6"
+boto3 = "^1.26.153"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+redis = "^4.5.5"
+pandas = "^2.0.2"
+statsmodels = "^0.14.0"
+matplotlib = "^3.7.1"
+jinja2 = "^3.1.2"
+blockkit = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
